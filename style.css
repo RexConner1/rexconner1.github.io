@@ -1,101 +1,167 @@
-header, nav, main, footer {display:block;}
-body	{background-color: #FFFFCC;
-		color: #330000;
-		font-family: Verdana;
-		background-image: url("Images/background.gif");
+header, nav, main, footer {
+	display:block;
 }
-#wrapper {width: 80%;
-		 margin-left: auto;
-		 margin-right: auto;
-		 min-width: 700px;
-		 max-width: 1024px;
-		 box-shadow: 3px 3px 3px #333333;
-		 background-color: #003800;
+
+body {
+	background-color: #FFFFCC;
+	color: #330000;
+	font-family: Verdana;
+	background-image: url("Images/background.gif");
 }
-header	{background-color: #00B200;
-		color: #000000;
-		background-image: url("Images/javalogo.gif");
-		background-position: center;
-		background-repeat: no-repeat;
-		line-height: 125px;
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 700px;
+	max-width: 1024px;
+	box-shadow: 3px 3px 3px #333333;
+	background-color: #003800;
 }
-h1	{margin: 0px;
+
+header {
+	background-color: #00B200;
+	color: #000000;
+	background-image: url("Images/javalogo.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	line-height: 125px;
+}
+
+h1 {
+	margin: 0px;
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
 }
-h2	{text-transform:uppercase;
+
+h2	{
+	text-transform:uppercase;
 	background-color:#00B200;
 	color:#FFDC00;
 	font-size:1.2em;
 	border-bottom:1px solid #000000;
 	padding: 5px 0 0 5px;
 	margin-right: 20px;
-	clear:left;}		
-nav	{text-align: center;
+	clear:left;
+}	
+
+nav	{
+	text-align: center;
 	float: left;
 	width: 100px;
 	font-weight: bold;
 	padding-top: 10px;
 }
-nav a { text-decoration: none;
-		padding-bottom: 15px;
-}
-nav a:link {color:#996633;}
-nav a:visited {color:#FFFFFF;}
-nav a:hover { color:#E5E500;}
-nav ul {list-style-type:none;}
 
-main {margin-left:150px;
-	 padding: 10px 20px 100px 20px;
-	 background-color:#004C00;
-	 color:#FFFFFF;
-}
-.floatright{float:right;}
-.floatleft{float:left;
-		padding-right: 20px;
-		padding-bottom: 20px;
+nav a { 
+	text-decoration: none;
+	padding-bottom: 15px;
 }
 
-.details{padding-left: 20%;
-		padding-right: 20%;
-		overflow:auto;
+nav a:link {
+	color:#996633;
 }
-.expand{padding-left: 10%;
-		padding-right: 10%;
-		overflow:auto;
-}
-img{border-style:none;}
-footer	{background-color: #00B200;
-		color: #000000;
-		font-size: .60em;
-		font-style: italic;
-		text-align: center;
-		padding: 20px;
-		clear: both;
-}
-footer a:link {color:#FFFFCC;}
-footer a:visited {color:#F2EAB7;}
-footer a:hover { color:#330000;}
 
-#desktop{display: inline;}
-table 	{margin: auto;
-		width: 90%;
-		border-spacing: 0px;
-		background-color: #00B200;
+nav a:visited {
+	color:#FFFFFF;
 }
-td, th {padding: 10px;}
-tr:nth-of-type(odd) {background-color: #003300;}
-label	{float: left;
-		display: block;
-		text-align: right;
-		width: 8em;
-		padding-right: 20px;
+
+nav a:hover {
+	color:#E5E500;
 }
-input, textarea{display: block;
-				margin-bottom: 1em;
+
+nav ul {
+	list-style-type:none;
 }
-#mySubmit{margin-left: 12em;}
-audio	{margin-top: 1em;
-		display:block;
+
+main {
+	margin-left:150px;
+	padding: 10px 20px 100px 20px;
+	background-color:#004C00;
+	color:#FFFFFF;
+}
+.floatright {
+	float:right;
+}
+
+.floatleft {
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.details{
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+}
+.expand{
+	padding-left: 10%;
+	padding-right: 10%;
+	overflow:auto;
+}
+img {
+	border-style:none;
+}
+
+footer {
+	background-color: #00B200;
+	color: #000000;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+
+footer a:link {
+	color:#FFFFCC;
+}
+footer a:visited {
+	color:#F2EAB7;
+}
+footer a:hover {
+	color:#330000;
+}
+
+#desktop {
+	display: inline;
+}
+
+table {
+	margin: auto;
+	width: 90%;
+	border-spacing: 0px;
+	background-color: #00B200;
+}
+
+td, th {
+	padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #003300;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 20px;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#mySubmit {
+	margin-left: 12em;
+}
+
+audio {
+	margin-top: 1em;
+	display:block;
 }
