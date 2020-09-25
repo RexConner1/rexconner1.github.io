@@ -134,6 +134,10 @@ td, th {
 	padding: 10px;
 }
 
+tr {
+	text-align: center;
+}
+
 tr:nth-of-type(odd) {
 	background-color: #003300;
 }
@@ -149,4 +153,9 @@ label {
 input, textarea {
 	display: block;
 	margin-bottom: 1em;
+}
+
+.position-description {
+	font-size: small;
+	text-align: left;
 }
