@@ -78,10 +78,6 @@ main {
 	color:#FFFFFF;
 }
 
-.floatright {
-	float:right;
-}
-
 .floatleft {
 	float:left;
 	padding-right: 20px;
@@ -126,10 +122,6 @@ footer a:hover {
 	color:#330000;
 }
 
-#desktop {
-	display: inline;
-}
-
 table {
 	margin: auto;
 	width: 90%;
@@ -156,8 +148,4 @@ label {
 input, textarea {
 	display: block;
 	margin-bottom: 1em;
-}
-
-#mySubmit {
-	margin-left: 12em;
 }
