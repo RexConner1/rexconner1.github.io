@@ -81,13 +81,13 @@ main {
 	color:#FFFFFF;
 }
 
-#summary {
+.bulleted-list {
 	display: inline-block;
 	text-align: left;
 	margin: 0;
 }
 
-#summary li {
+.bulleted-list li {
 	padding: 10px 0px;
 }
 
