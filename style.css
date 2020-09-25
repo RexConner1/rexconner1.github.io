@@ -1,7 +1,3 @@
-/* header, nav, main, footer {
-	display: block;
-} */
-
 body {
 	background-color: #FFFFCC;
 	color: #330000;
@@ -96,11 +92,13 @@ main {
 	padding-right: 20%;
 	overflow: auto;
 }
+
 .expand{
 	padding-left: 10%;
 	padding-right: 10%;
 	overflow:auto;
 }
+
 img {
 	border-style:none;
 }
@@ -118,9 +116,11 @@ footer {
 footer a:link {
 	color:#FFFFCC;
 }
+
 footer a:visited {
 	color:#F2EAB7;
 }
+
 footer a:hover {
 	color:#330000;
 }
@@ -159,9 +159,4 @@ input, textarea {
 
 #mySubmit {
 	margin-left: 12em;
-}
-
-audio {
-	margin-top: 1em;
-	display:block;
 }
