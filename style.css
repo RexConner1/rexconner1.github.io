@@ -26,21 +26,23 @@ header {
 
 h1 {
 	margin: 0px;
-	text-indent:100%;
-	white-space:nowrap;
-	overflow:hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 h2	{
-	text-transform:uppercase;
-	background-color:#00B200;
-	color:#FFDC00;
-	font-size:1.2em;
-	border-bottom:1px solid #000000;
+	text-transform: uppercase;
+	background-color: #00B200;
+	color: #FFDC00;
+	font-size: 1.2em;
+	border-bottom: 1px solid #000000;
 	padding: 5px 0 0 5px;
-	margin-right: 20px;
-	clear:left;
-}	
+}
+
+.project {
+	margin-top: 40px;
+}
 
 nav	{
 	text-align: center;
