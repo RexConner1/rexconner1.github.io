@@ -71,18 +71,6 @@ nav ul {
 	list-style-type: none;
 }
 
-footer a:link {
-	color:#FFFFCC;
-}
-
-footer a:visited {
-	color:#F2EAB7;
-}
-
-footer a:hover {
-	color:#330000;
-}
-
 main {
 	margin-left:150px;
 	padding: 10px 20px 100px 20px;
@@ -124,6 +112,18 @@ footer {
 	text-align: center;
 	padding: 20px;
 	clear: both;
+}
+
+footer a:link {
+	color:#FFFFCC;
+}
+
+footer a:visited {
+	color:#F2EAB7;
+}
+
+footer a:hover {
+	color:#330000;
 }
 
 #desktop {
