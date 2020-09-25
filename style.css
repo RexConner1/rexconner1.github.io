@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 nav ul {
-	list-style-type:none;
+	list-style-type: none;
 }
 
 footer a:link {
@@ -89,6 +89,7 @@ main {
 	background-color:#004C00;
 	color:#FFFFFF;
 }
+
 .floatright {
 	float:right;
 }
