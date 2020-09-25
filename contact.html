@@ -25,14 +25,22 @@
 			<main>
 				<p>For more details or clarification, feel free to fill in the information below to send me a direct message. Or, utilize any of the contact methods provided in the footer.</p>
 				<form action="http://www.public.iastate.edu/~djorona/sent.html">
-					<label for="myName">* Name:</label>
-					<input type="text" name="myName" id="myName" required="required" placeholder="First and last name">
-					<label for="myEmail">* E-mail:</label>
-					<input type="e-mail" name="myEmail" id="myEmail" required="required" placeholder="you@yourdomain.com">
-					<label for="myPhone">Phone:</label>
-					<input type="text" name="myPhone" id="myPhone" placeholder="(555) 555-5555">
-					<label for="myComments">* Comments:</label>
-					<textarea name="myComments" id="myComments" rows="10" cols="85" required></textarea>
+					<div>
+						<label for="myName">* Name:</label>
+						<input type="text" name="myName" id="myName" required="required" placeholder="First and last name">
+					</div>
+					<div>
+						<label for="myEmail">* E-mail:</label>
+						<input type="e-mail" name="myEmail" id="myEmail" required="required" placeholder="you@yourdomain.com">
+					</div>
+					<div>
+						<label for="myPhone">Phone:</label>
+						<input type="text" name="myPhone" id="myPhone" placeholder="(555) 555-5555">
+					</div>
+					<div>
+						<label for="myComments">* Comments:</label>
+						<textarea name="myComments" id="myComments" rows="10" cols="85" required></textarea>
+					</div>
 					<input type="submit" name="send" value="Send" onclick="sendMail()">
 				</form>
 			</main>
