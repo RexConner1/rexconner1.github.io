@@ -81,6 +81,10 @@ main {
 	color:#FFFFFF;
 }
 
+#summary {
+	margin-left: 225px;
+}
+
 .floatleft {
 	float:left;
 	padding-right: 20px;
