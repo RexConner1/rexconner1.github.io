@@ -82,7 +82,8 @@ main {
 }
 
 #summary {
-	margin-left: 225px;
+	display: inline-block;
+    text-align: left;
 }
 
 .floatleft {
