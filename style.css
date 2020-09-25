@@ -83,7 +83,12 @@ main {
 
 #summary {
 	display: inline-block;
-    text-align: left;
+	text-align: left;
+	margin: 0;
+}
+
+#summary li {
+	padding: 10px 0px;
 }
 
 .floatleft {
